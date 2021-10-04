@@ -20,4 +20,7 @@
     <string name="confirm_password">Confirm password</string>
     <string name="unlock">unlock</string>
     <string name="register">register</string>
+    <string name="bg_rec">bg_rec</string>
+    <string name="string_bg_rec" />
+    <string name="cam">cam</string>
 </resources>

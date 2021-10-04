@@ -19,7 +19,12 @@ public class login extends AppCompatActivity {
     }
 
     public void pindah(View view) {
-        Intent intent = new Intent(login.this, register.class);
+        Intent intent = new Intent(this, register.class);
         startActivity(intent);
+    }
+
+    public void masuk(View view) {
+        startActivity(new Intent(this, dashboard.class));
+        finish();
     }
 }
