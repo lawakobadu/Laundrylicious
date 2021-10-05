@@ -23,4 +23,7 @@
     <string name="bg_rec">bg_rec</string>
     <string name="string_bg_rec" />
     <string name="cam">cam</string>
+    <string name="menu">Menu</string>
+    <string name="day">Good Afternoon</string>
+    <string name="name">Name</string>
 </resources>

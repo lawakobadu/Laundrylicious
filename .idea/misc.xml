@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Laundrylicious/app/src/main/res/drawable/bg_box.xml" value="0.2203125" />
         <entry key="..\:/Laundrylicious/app/src/main/res/drawable/bg_rec.xml" value="0.2203125" />
         <entry key="..\:/Laundrylicious/app/src/main/res/drawable/circle.xml" value="0.2203125" />
         <entry key="..\:/Laundrylicious/app/src/main/res/drawable/custom_input.xml" value="0.2203125" />
@@ -10,6 +11,7 @@
         <entry key="..\:/Laundrylicious/app/src/main/res/drawable/rectangle.xml" value="0.2203125" />
         <entry key="..\:/Laundrylicious/app/src/main/res/layout/dashboard.xml" value="0.25" />
         <entry key="..\:/Laundrylicious/app/src/main/res/layout/login.xml" value="0.25" />
+        <entry key="..\:/Laundrylicious/app/src/main/res/layout/order_list.xml" value="0.20416666666666666" />
         <entry key="..\:/Laundrylicious/app/src/main/res/layout/register.xml" value="0.25" />
       </map>
     </option>
