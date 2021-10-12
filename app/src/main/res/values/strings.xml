@@ -24,7 +24,6 @@
     <string name="string_bg_rec" />
     <string name="cam">cam</string>
     <string name="menu">Menu</string>
-    <string name="day">Good Afternoon</string>
     <string name="name">Name</string>
     <string name="order">Order</string>
     <string name="mesin_cuci">mesin_cuci</string>
@@ -39,4 +38,11 @@
     <string name="cuci">Cuci</string>
     <string name="tambah">tambah</string>
     <string name="next">next</string>
+    <string name="welcome">Welcome,</string>
+    <string name="day">Monday,</string>
+    <string name="wib">WIB</string>
+    <string name="title_activity_main_dashboard">MainDashboard</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
 </resources>
