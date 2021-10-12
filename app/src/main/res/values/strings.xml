@@ -33,7 +33,6 @@
     <string name="location">location</string>
     <string name="cart">cart</string>
     <string name="keranjang">Keranjang</string>
-    <string name="order_list">Order list</string>
     <string name="setrika">Setrika</string>
     <string name="cuci">Cuci</string>
     <string name="tambah">tambah</string>
@@ -45,4 +44,5 @@
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+    <string name="tambahkan">tambahkan</string>
 </resources>

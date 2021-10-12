@@ -9,9 +9,11 @@
         <entry key="..\:/Laundrylicious/app/src/main/res/drawable/custom_button.xml" value="0.2203125" />
         <entry key="..\:/Laundrylicious/app/src/main/res/drawable/custom_input.xml" value="0.2203125" />
         <entry key="..\:/Laundrylicious/app/src/main/res/drawable/ic_baseline_camera_alt_24.xml" value="0.2203125" />
+        <entry key="..\:/Laundrylicious/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.2203125" />
         <entry key="..\:/Laundrylicious/app/src/main/res/drawable/ic_dashboard_black_24dp.xml" value="0.2203125" />
         <entry key="..\:/Laundrylicious/app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.2203125" />
         <entry key="..\:/Laundrylicious/app/src/main/res/drawable/ic_notifications_black_24dp.xml" value="0.2203125" />
+        <entry key="..\:/Laundrylicious/app/src/main/res/drawable/ic_outline_event_note_24.xml" value="0.2203125" />
         <entry key="..\:/Laundrylicious/app/src/main/res/drawable/ic_outline_home_24.xml" value="0.2203125" />
         <entry key="..\:/Laundrylicious/app/src/main/res/drawable/ic_outline_person_24.xml" value="0.2203125" />
         <entry key="..\:/Laundrylicious/app/src/main/res/drawable/rectangle.xml" value="0.2203125" />
@@ -22,10 +24,10 @@
         <entry key="..\:/Laundrylicious/app/src/main/res/layout/fragment_notifications.xml" value="0.20416666666666666" />
         <entry key="..\:/Laundrylicious/app/src/main/res/layout/login.xml" value="0.25" />
         <entry key="..\:/Laundrylicious/app/src/main/res/layout/order_cuci.xml" value="0.20416666666666666" />
-        <entry key="..\:/Laundrylicious/app/src/main/res/layout/order_list.xml" value="0.22" />
+        <entry key="..\:/Laundrylicious/app/src/main/res/layout/order_list.xml" value="0.25" />
         <entry key="..\:/Laundrylicious/app/src/main/res/layout/order_setrika.xml" value="0.20416666666666666" />
         <entry key="..\:/Laundrylicious/app/src/main/res/layout/register.xml" value="0.22" />
-        <entry key="..\:/Laundrylicious/app/src/main/res/layout/riwayat_transaksi.xml" value="0.22" />
+        <entry key="..\:/Laundrylicious/app/src/main/res/layout/riwayat_transaksi.xml" value="0.25" />
         <entry key="..\:/Laundrylicious/app/src/main/res/menu/bottom_nav_menu.xml" value="0.20416666666666666" />
       </map>
     </option>

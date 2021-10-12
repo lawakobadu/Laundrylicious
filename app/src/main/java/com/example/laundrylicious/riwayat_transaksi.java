@@ -17,4 +17,9 @@ public class riwayat_transaksi extends AppCompatActivity {
         getSupportActionBar().hide();
         setContentView(R.layout.riwayat_transaksi);
     }
+
+    public void kembali(View view) {
+        startActivity(new Intent(this, dashboard.class));
+        finish();
+    }
 }

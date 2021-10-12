@@ -17,4 +17,9 @@ public class order_list extends AppCompatActivity {
         getSupportActionBar().hide();
         setContentView(R.layout.order_list);
     }
+
+    public void kembali(View view) {
+        startActivity(new Intent(this, dashboard.class));
+        finish();
+    }
 }

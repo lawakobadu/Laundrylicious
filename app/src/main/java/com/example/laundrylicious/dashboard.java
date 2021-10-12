@@ -17,4 +17,14 @@ public class dashboard extends AppCompatActivity {
         getSupportActionBar().hide();
         setContentView(R.layout.dashboard);
     }
+
+    public void order(View view) {
+        startActivity(new Intent(this, order_list.class));
+        finish();
+    }
+
+    public void rt(View view) {
+        startActivity(new Intent(this, riwayat_transaksi.class));
+        finish();
+    }
 }

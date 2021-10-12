@@ -10,10 +10,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Laundrylicious">
         <activity
-            android:name=".MainDashboard"
-            android:exported="true"
-            android:label="@string/title_activity_main_dashboard" />
-        <activity
             android:name=".login"
             android:exported="true">
             <intent-filter>
@@ -30,6 +26,9 @@
             android:exported="true" />
         <activity
             android:name=".order_list"
+            android:exported="true" />
+        <activity
+            android:name=".riwayat_transaksi"
             android:exported="true" />
     </application>
 
