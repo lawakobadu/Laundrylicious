@@ -8,33 +8,18 @@ import android.view.WindowManager;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class dashboard extends AppCompatActivity {
+public class profile extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         getSupportActionBar().hide();
-        setContentView(R.layout.dashboard);
+        setContentView(R.layout.profile);
     }
 
-    public void order(View view) {
-        startActivity(new Intent(this, order_list.class));
-        finish();
-    }
-
-    public void rt(View view) {
-        startActivity(new Intent(this, riwayat_transaksi.class));
-        finish();
-    }
-
-    public void profile(View view) {
-        startActivity(new Intent(this, profile.class));
-        finish();
-    }
-
-    public void pantau(View view) {
-        startActivity(new Intent(this, pantau.class));
+    public void kembali(View view) {
+        startActivity(new Intent(this, dashboard.class));
         finish();
     }
 }

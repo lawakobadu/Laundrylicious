@@ -8,28 +8,18 @@ import android.view.WindowManager;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class login extends AppCompatActivity {
+public class lupa_password extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
         getSupportActionBar().hide();
-        setContentView(R.layout.login);
+        setContentView(R.layout.lupa_password);
     }
 
-    public void pindah(View view) {
-        Intent intent = new Intent(this, register.class);
-        startActivity(intent);
-    }
-
-    public void masuk(View view) {
-        startActivity(new Intent(this, dashboard.class));
-        finish();
-    }
-
-    public void lupa_password(View view) {
-        startActivity(new Intent(this, lupa_password.class));
+    public void kembali(View view) {
+        startActivity(new Intent(this, login.class));
         finish();
     }
 }

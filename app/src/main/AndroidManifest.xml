@@ -30,6 +30,15 @@
         <activity
             android:name=".riwayat_transaksi"
             android:exported="true" />
+        <activity
+            android:name=".profile"
+            android:exported="true" />
+        <activity
+            android:name=".pantau"
+            android:exported="true" />
+        <activity
+            android:name=".lupa_password"
+            android:exported="true" />
     </application>
 
 </manifest>

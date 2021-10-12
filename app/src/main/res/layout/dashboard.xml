@@ -146,7 +146,8 @@
             android:layout_marginTop="135dp"
             android:contentDescription="@string/location"
             app:srcCompat="@drawable/location"
-            tools:ignore="ImageContrastCheck" />
+            tools:ignore="ImageContrastCheck"
+            android:onClick="pantau"/>
 
         <TextView
             android:id="@+id/textView13"
@@ -265,7 +266,8 @@
             android:layout_width="wrap_content"
             android:layout_height="50dp"
             android:layout_marginLeft="227dp"
-            app:srcCompat="@drawable/ic_outline_person_24" />
+            app:srcCompat="@drawable/ic_outline_person_24"
+            android:onClick="profile"/>
 
         <TextView
             android:id="@+id/textView25"
