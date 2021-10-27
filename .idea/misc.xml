@@ -23,10 +23,12 @@
         <entry key="..\:/Laundrylicious/app/src/main/res/layout/fragment_dashboard.xml" value="0.22" />
         <entry key="..\:/Laundrylicious/app/src/main/res/layout/fragment_home.xml" value="0.20416666666666666" />
         <entry key="..\:/Laundrylicious/app/src/main/res/layout/fragment_notifications.xml" value="0.20416666666666666" />
+        <entry key="..\:/Laundrylicious/app/src/main/res/layout/ganti_email.xml" value="0.33" />
+        <entry key="..\:/Laundrylicious/app/src/main/res/layout/ganti_nama.xml" value="0.33" />
         <entry key="..\:/Laundrylicious/app/src/main/res/layout/login.xml" value="0.25" />
-        <entry key="..\:/Laundrylicious/app/src/main/res/layout/lupa_password.xml" value="0.33" />
+        <entry key="..\:/Laundrylicious/app/src/main/res/layout/lupa_password.xml" value="0.25" />
         <entry key="..\:/Laundrylicious/app/src/main/res/layout/order_cuci.xml" value="0.20416666666666666" />
-        <entry key="..\:/Laundrylicious/app/src/main/res/layout/order_list.xml" value="0.33" />
+        <entry key="..\:/Laundrylicious/app/src/main/res/layout/order_list.xml" value="0.22" />
         <entry key="..\:/Laundrylicious/app/src/main/res/layout/order_setrika.xml" value="0.20416666666666666" />
         <entry key="..\:/Laundrylicious/app/src/main/res/layout/pantau.xml" value="0.25" />
         <entry key="..\:/Laundrylicious/app/src/main/res/layout/profile.xml" value="0.33" />

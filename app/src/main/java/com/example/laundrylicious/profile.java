@@ -60,4 +60,9 @@ public class profile extends AppCompatActivity {
         startActivity(new Intent(this, dashboard.class));
         finish();
     }
+
+    public void ganti_nama(View view) {
+        startActivity(new Intent(this, ganti_nama.class));
+        finish();
+    }
 }

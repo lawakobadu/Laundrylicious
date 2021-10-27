@@ -39,6 +39,9 @@
         <activity
             android:name=".lupa_password"
             android:exported="true" />
+        <activity
+            android:name=".ganti_nama"
+            android:exported="true" />
     </application>
 
 </manifest>
