@@ -8,23 +8,19 @@ import android.view.WindowManager;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class lupa_password extends AppCompatActivity {
+public class ganti_nohp extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
         getSupportActionBar().hide();
-        setContentView(R.layout.lupa_password);
+        setContentView(R.layout.ganti_nohp);
     }
 
     public void kembali(View view) {
-        startActivity(new Intent(this, login.class));
+        startActivity(new Intent(this, profile.class));
         finish();
     }
 
-    public void verifikasi(View view) {
-        startActivity(new Intent(this, verifikasi.class));
-        finish();
-    }
 }

@@ -65,4 +65,19 @@ public class profile extends AppCompatActivity {
         startActivity(new Intent(this, ganti_nama.class));
         finish();
     }
+
+    public void ganti_email(View view) {
+        startActivity(new Intent(this, ganti_email.class));
+        finish();
+    }
+
+    public void ganti_nohp(View view) {
+        startActivity(new Intent(this, ganti_nohp.class));
+        finish();
+    }
+
+    public void ganti_pw(View view) {
+        startActivity(new Intent(this, ganti_pwbaru.class));
+        finish();
+    }
 }

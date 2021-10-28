@@ -8,23 +8,18 @@ import android.view.WindowManager;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class order_list extends AppCompatActivity {
+public class detail_order extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         getSupportActionBar().hide();
-        setContentView(R.layout.order_list);
+        setContentView(R.layout.detail_order);
     }
 
     public void kembali(View view) {
-        startActivity(new Intent(this, dashboard.class));
-        finish();
-    }
-
-    public void tambahkan(View view) {
-        startActivity(new Intent(this, detail_order.class));
+        startActivity(new Intent(this, order_list.class));
         finish();
     }
 }

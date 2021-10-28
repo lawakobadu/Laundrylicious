@@ -182,7 +182,8 @@
             android:layout_marginLeft="250dp"
             android:layout_marginTop="40dp"
             android:onClick="ganti_nama"
-            app:srcCompat="@drawable/ic_outline_create_24" />
+            app:srcCompat="@drawable/ic_outline_create_24"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
 
         <ImageView
             android:id="@+id/imageView29"
@@ -190,7 +191,9 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="250dp"
             android:layout_marginTop="90dp"
-            app:srcCompat="@drawable/ic_outline_create_24" />
+            android:onClick="ganti_email"
+            app:srcCompat="@drawable/ic_outline_create_24"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
 
         <ImageView
             android:id="@+id/imageView32"
@@ -198,7 +201,9 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="250dp"
             android:layout_marginTop="140dp"
-            app:srcCompat="@drawable/ic_outline_create_24" />
+            android:onClick="ganti_nohp"
+            app:srcCompat="@drawable/ic_outline_create_24"
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
         <ImageView
             android:id="@+id/imageView33"
@@ -214,6 +219,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="250dp"
             android:layout_marginTop="240dp"
+            android:onClick="ganti_pw"
             app:srcCompat="@drawable/ic_outline_create_24" />
 
     </androidx.cardview.widget.CardView>

@@ -28,6 +28,9 @@
             android:name=".order_list"
             android:exported="true" />
         <activity
+            android:name=".detail_order"
+            android:exported="true" />
+        <activity
             android:name=".riwayat_transaksi"
             android:exported="true" />
         <activity
@@ -40,7 +43,19 @@
             android:name=".lupa_password"
             android:exported="true" />
         <activity
+            android:name=".verifikasi"
+            android:exported="true" />
+        <activity
             android:name=".ganti_nama"
+            android:exported="true" />
+        <activity
+            android:name=".ganti_email"
+            android:exported="true" />
+        <activity
+            android:name=".ganti_nohp"
+            android:exported="true" />
+        <activity
+            android:name=".ganti_pwbaru"
             android:exported="true" />
     </application>
 
