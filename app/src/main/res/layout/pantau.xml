@@ -64,29 +64,16 @@
             android:id="@+id/editTextTextPersonName5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="70dp"
+            android:layout_marginLeft="20dp"
             android:layout_marginTop="10dp"
-            android:ems="10"
+            android:drawableLeft="@drawable/ic_outline_location_on_24"
+            android:drawableRight="@drawable/ic_baseline_search_24"
+            android:drawablePadding="20dp"
+            android:ems="15"
             android:fontFamily="@font/rregular"
             android:inputType="textPersonName"
             android:textSize="16sp"
             tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
-
-        <ImageView
-            android:id="@+id/imageView37"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="280dp"
-            android:layout_marginTop="20dp"
-            app:srcCompat="@drawable/ic_baseline_search_24" />
-
-        <ImageView
-            android:id="@+id/imageView38"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:srcCompat="@drawable/ic_outline_location_on_24"
-            android:layout_marginLeft="30dp"
-            android:layout_marginTop="20dp" />
 
         <TextView
             android:id="@+id/textView33"
