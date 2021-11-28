@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="20dp"
+    android:padding="10dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginTop="10dp"
+    tools:layout_editor_absoluteX="63dp"
+    tools:layout_editor_absoluteY="91dp">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginLeft="20dp"
+        android:padding="10dp"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textOrderKe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/pregular"
+            android:text="TextView"
+            android:layout_marginLeft="80dp"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            tools:layout_editor_absoluteX="30dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <TextView
+            android:id="@+id/orderke"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/pregular"
+            android:text="Order ke"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            tools:layout_editor_absoluteX="30dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <TextView
+            android:id="@+id/textStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginLeft="80dp"
+            android:fontFamily="@font/pregular"
+            android:text="TextView"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+
+            app:layout_constraintTop_toTopOf="@+id/textOrderKe"
+            tools:layout_editor_absoluteX="30dp" />
+
+        <TextView
+            android:id="@+id/Status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:fontFamily="@font/pregular"
+            android:text="Status"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            app:layout_constraintTop_toTopOf="@+id/textOrderKe"
+            tools:layout_editor_absoluteX="30dp" />
+
+
+        <TextView
+            android:id="@+id/textTotal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Status"
+            android:layout_marginTop="3dp"
+            android:fontFamily="@font/pregular"
+            android:text="TextView"
+            android:layout_marginLeft="80dp"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            app:layout_constraintTop_toBottomOf="@+id/textOrderKe"
+            tools:layout_editor_absoluteX="30dp" />
+
+        <TextView
+            android:id="@+id/Total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Status"
+            android:layout_marginTop="3dp"
+            android:fontFamily="@font/pregular"
+            android:text="Total"
+            android:textColor="@android:color/black"
+            android:textSize="14sp"
+            app:layout_constraintTop_toBottomOf="@+id/textOrderKe"
+            tools:layout_editor_absoluteX="30dp" />
+
+        <ImageView
+            android:id="@+id/imageView29"
+            android:layout_width="68dp"
+            android:layout_height="81dp"
+            android:layout_marginLeft="250dp"
+            android:contentDescription="@string/logo"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.94"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.529"
+            app:srcCompat="@drawable/logo" />
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>
