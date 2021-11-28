@@ -1,21 +1,91 @@
 package com.example.laundrylicious;
 
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.view.Window;
-import android.view.WindowManager;
 
-import androidx.appcompat.app.AppCompatActivity;
+import java.util.ArrayList;
 
 public class riwayat_transaksi extends AppCompatActivity {
+    RecyclerView recyclerView;
+
+    ArrayList<SetterGetter> datamenu;
+    LinearLayoutManager linearLayoutManager;
+    RiwayatAdapter adapter;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        requestWindowFeature(Window.FEATURE_NO_TITLE);
-        this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
-        getSupportActionBar().hide();
         setContentView(R.layout.riwayat_transaksi);
+
+        recyclerView        =   findViewById(R.id.rv_menu);
+
+        addData();
+        linearLayoutManager   =   new LinearLayoutManager(this);
+        recyclerView.setLayoutManager(linearLayoutManager);
+        adapter             =   new RiwayatAdapter(datamenu);
+        recyclerView.setAdapter(adapter);
+
+    }
+
+    public void addData(){
+        datamenu            =   new ArrayList<>();
+        datamenu.add(new SetterGetter(
+                "1",
+                "selesai",
+                "100.000"));
+        datamenu.add(new SetterGetter(
+                "2",
+                "belum selesai",
+                "100.000"));
+        datamenu.add(new SetterGetter(
+                "3",
+                "selesai",
+                "100.000"));
+        datamenu.add(new SetterGetter(
+                "4",
+                "belum selesai",
+                "100.000"));
+        datamenu.add(new SetterGetter(
+                "5",
+                "selesai",
+                "100.000"));
+        datamenu.add(new SetterGetter(
+                "6",
+                "belum selesai",
+                "100.000"));
+        datamenu.add(new SetterGetter(
+                "6",
+                "belum selesai",
+                "100.000"));
+        datamenu.add(new SetterGetter(
+                "6",
+                "belum selesai",
+                "100.000"));
+        datamenu.add(new SetterGetter(
+                "6",
+                "belum selesai",
+                "100.000"));
+        datamenu.add(new SetterGetter(
+                "6",
+                "belum selesai",
+                "100.000"));
+        datamenu.add(new SetterGetter(
+                "6",
+                "belum selesai",
+                "100.000"));
+        datamenu.add(new SetterGetter(
+                "6",
+                "belum selesai",
+                "100.000"));
+        datamenu.add(new SetterGetter(
+                "6",
+                "belum selesai",
+                "100.000"));
     }
 
     public void kembali(View view) {
@@ -23,3 +93,4 @@ public class riwayat_transaksi extends AppCompatActivity {
         finish();
     }
 }
+

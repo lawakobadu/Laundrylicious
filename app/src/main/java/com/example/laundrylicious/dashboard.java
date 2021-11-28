@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 
+
 import androidx.appcompat.app.AppCompatActivity;
 
 public class dashboard extends AppCompatActivity {
@@ -16,6 +17,7 @@ public class dashboard extends AppCompatActivity {
         this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         getSupportActionBar().hide();
         setContentView(R.layout.dashboard);
+
     }
 
     public void order(View view) {
