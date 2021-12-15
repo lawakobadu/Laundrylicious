@@ -10,7 +10,7 @@ import android.view.View;
 
 import java.util.ArrayList;
 
-public class riwayat_transaksi extends AppCompatActivity {
+public class riwayat_transaksi extends AppCompatActivity implements RiwayatAdapter.OnRiwayatHolderCLickListener {
     RecyclerView recyclerView;
 
     ArrayList<SetterGetter> datamenu;
@@ -27,8 +27,10 @@ public class riwayat_transaksi extends AppCompatActivity {
         addData();
         linearLayoutManager   =   new LinearLayoutManager(this);
         recyclerView.setLayoutManager(linearLayoutManager);
+
         adapter             =   new RiwayatAdapter(datamenu);
         recyclerView.setAdapter(adapter);
+        adapter.setListener(this);
 
     }
 
@@ -91,6 +93,13 @@ public class riwayat_transaksi extends AppCompatActivity {
     public void kembali(View view) {
         startActivity(new Intent(this, dashboard.class));
         finish();
+    }
+
+    @Override
+    public void onClick() {
+        Intent detailRiwayatTransaksi = new Intent(this, dashboard.class);
+        startActivity(detailRiwayatTransaksi);
+//        Toast.makeText(this, "berhasil", Toast.LENGTH_SHORT).show();
     }
 }
 

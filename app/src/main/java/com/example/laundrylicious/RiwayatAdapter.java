@@ -6,6 +6,7 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
+import androidx.cardview.widget.CardView;
 import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
@@ -45,19 +46,40 @@ public class RiwayatAdapter extends RecyclerView.Adapter<RiwayatAdapter.RiwayatH
         return listdata.size();
     }
 
-    public class RiwayatHolder extends RecyclerView.ViewHolder {
+    public class RiwayatHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
 
-        TextView orderkeMenu ;
+        TextView orderkeMenu;
         TextView statusMenu;
         TextView totalMenu;
+        CardView cardItemRiwayat;
 
         public RiwayatHolder(@NonNull View itemView) {
             super(itemView);
             orderkeMenu = itemView.findViewById(R.id.textOrderKe);
             statusMenu = itemView.findViewById(R.id.textStatus);
             totalMenu = itemView.findViewById(R.id.textTotal);
+            cardItemRiwayat = itemView.findViewById(R.id.cardItemRiwayat);
+            itemView.setOnClickListener(this);
+
 
         }
 
+        @Override
+        public void onClick(View view) {
+            if(listener != null){
+                listener.onClick();
+            }
+        }
     }
+//    Click Listener
+    OnRiwayatHolderCLickListener listener = null;
+
+    public interface OnRiwayatHolderCLickListener{
+        void onClick();
+    }
+
+    public void setListener(OnRiwayatHolderCLickListener listener) {
+        this.listener = listener;
+    }
+
 }
