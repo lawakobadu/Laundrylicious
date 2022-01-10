@@ -71,7 +71,7 @@
         android:contentDescription="@string/bingkai" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/txUsername"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/custom_input"
@@ -92,7 +92,7 @@
         tools:ignore="TextContrastCheck" />
 
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/txPassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/custom_input"
@@ -127,7 +127,7 @@
         tools:ignore="TouchTargetSizeCheck" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="#50C2C9"
@@ -158,7 +158,7 @@
         app:layout_constraintVertical_bias="0.95" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/tvCreateAccount"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/pregular"

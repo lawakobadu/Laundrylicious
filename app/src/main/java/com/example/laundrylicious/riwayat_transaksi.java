@@ -97,7 +97,7 @@ public class riwayat_transaksi extends AppCompatActivity implements RiwayatAdapt
 
     @Override
     public void onClick() {
-        Intent detailRiwayatTransaksi = new Intent(this, dashboard.class);
+        Intent detailRiwayatTransaksi = new Intent(this, detail_riwayat_transaksi.class);
         startActivity(detailRiwayatTransaksi);
 //        Toast.makeText(this, "berhasil", Toast.LENGTH_SHORT).show();
     }
