@@ -47,4 +47,6 @@
     <string name="tambahkan">tambahkan</string>
     <string name="simpan">simpan</string>
     <string name="kode">Kode</string>
+    <string name="sudah_punya_akun">Sudah Punya Akun?</string>
+    <string name="kembali_ke_login">Kembali ke Login</string>
 </resources>
