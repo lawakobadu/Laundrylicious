@@ -153,7 +153,7 @@ public class WelcomeActivity extends AppCompatActivity {
         }
     };
 
-//    /**
+    //    /**
 //     * Making notification bar transparent
 //     */
     private void changeStatusBarColor() {
@@ -164,7 +164,7 @@ public class WelcomeActivity extends AppCompatActivity {
         }
     }
 
-//    /**
+    //    /**
 //     * View pager adapter
 //     */
     public class MyViewPagerAdapter extends PagerAdapter {

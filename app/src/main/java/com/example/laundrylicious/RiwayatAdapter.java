@@ -1,5 +1,6 @@
 package com.example.laundrylicious;
 
+import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -11,12 +12,16 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
 
+
 public class RiwayatAdapter extends RecyclerView.Adapter<RiwayatAdapter.RiwayatHolder> {
 
     private ArrayList<SetterGetter> listdata;
+    private Context context;
 
-    public RiwayatAdapter(ArrayList<SetterGetter> listdata) {
+    public RiwayatAdapter(Context context, ArrayList<SetterGetter> listdata) {
         this.listdata = listdata;
+        this.context = context;
+
     }
 
     @NonNull
@@ -31,13 +36,13 @@ public class RiwayatAdapter extends RecyclerView.Adapter<RiwayatAdapter.RiwayatH
     public void onBindViewHolder(@NonNull RiwayatHolder holder, int position) {
 
         final SetterGetter getData = listdata.get(position);
-        String orderke = getData.getOrderke();
+        Integer orderke = getData.getOrderke();
         String status = getData.getStatus();
-        String total = getData.getTotal();
+        Integer total = getData.getTotal();
 
-        holder.orderkeMenu.setText(orderke);
+        holder.orderkeMenu.setText(String.valueOf(orderke));
         holder.statusMenu.setText(status);
-        holder.totalMenu.setText(total);
+        holder.totalMenu.setText(String.valueOf(total));
 
     }
 

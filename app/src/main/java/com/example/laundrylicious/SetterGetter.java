@@ -1,21 +1,36 @@
 package com.example.laundrylicious;
 
-public class SetterGetter {
-    String orderke;
-    String status;
-    String total;
+import com.google.gson.annotations.Expose;
+import com.google.gson.annotations.SerializedName;
 
-    public SetterGetter(String orderke, String status, String total) {
+public class SetterGetter {
+
+    @SerializedName("orderke")
+    @Expose
+    private Integer orderke;
+    @SerializedName("status")
+    @Expose
+    private String status;
+    @SerializedName("total")
+    @Expose
+    private Integer total;
+
+
+    public SetterGetter() {
+    }
+
+    public SetterGetter(Integer orderke, String status, Integer total) {
+        super();
         this.orderke = orderke;
         this.status = status;
         this.total = total;
     }
 
-    public String getOrderke() {
+    public Integer getOrderke() {
         return orderke;
     }
 
-    public void setOrderke(String orderke) {
+    public void setOrderke(Integer orderke) {
         this.orderke = orderke;
     }
 
@@ -27,11 +42,12 @@ public class SetterGetter {
         this.status = status;
     }
 
-    public String getTotal() {
+    public Integer getTotal() {
         return total;
     }
 
-    public void setTotal(String total) {
+    public void setTotal(Integer total) {
         this.total = total;
     }
+
 }
