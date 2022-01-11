@@ -15,7 +15,7 @@ public class dashboard extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         this.getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
-        getSupportActionBar().hide();
+
         setContentView(R.layout.dashboard);
 
     }
@@ -36,7 +36,7 @@ public class dashboard extends AppCompatActivity {
     }
 
     public void pantau(View view) {
-        startActivity(new Intent(this, pantau.class));
+        startActivity(new Intent(this, MapsActivity.class));
         finish();
     }
 }
