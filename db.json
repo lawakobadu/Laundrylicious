@@ -1,16 +1,17 @@
-{
-    "posts": [
-      {
-        "id": 1,
-        "title": "hello"
-      },
-      {
-        "id": 2,
-        "title": "world"
-
-      }
-    ],
-    "profile": {
-      "name": "typicode"
-    }
+[
+  {
+    "id": 1,
+    "status": "Selesai",
+    "total": 10000
+  },
+  {
+    "id": 2,
+    "status": "Selesai",
+    "total": 20000
+  },
+  {
+    "id": 3,
+    "status": "Belum Selesai",
+    "total": 13000
   }
+]
