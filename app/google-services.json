@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "135983875981",
+    "project_id": "laundrylicious-1ecd5",
+    "storage_bucket": "laundrylicious-1ecd5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:135983875981:android:552a2bee797517d44adfc4",
+        "android_client_info": {
+          "package_name": "com.example.laundrylicious"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "135983875981-gie70478mod3rf7f5mbh7d1ci77pm6gi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHckl0PfL5dwb7VJORN7mZNTga5Ihckw4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "135983875981-gie70478mod3rf7f5mbh7d1ci77pm6gi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
