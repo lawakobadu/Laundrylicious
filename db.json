@@ -1,7 +1,7 @@
 {
-  "Orders": [
-    { "id": 1, "status": "selesai", "total": 10000 },
-    { "id": 2, "status": "selesai", "total": 20000 },
-    { "id": 3, "status": "belum selesai", "total": 10000 }
+  "SetterGetter": [
+    { "orderke": 1, "status": "selesai", "total": 10000 },
+    { "orderke": 2, "status": "selesai", "total": 20000 },
+    { "orderke": 3, "status": "belum selesai", "total": 10000 }
   ]
 }
