@@ -66,5 +66,11 @@ public class LoginActivity extends AppCompatActivity {
         }
         return result;
     }
+
+    public void lupa_password(View view) {
+        startActivity(new Intent(this, lupa_password.class));
+        finish();
+    }
+
 }
 

@@ -4,7 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    tools:context= ".MapsActivity"
     android:background="#F6F6F6" >
+
 
     <fragment
         android:id="@+id/map"
@@ -60,14 +62,16 @@
     </androidx.cardview.widget.CardView>
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/notif"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="#50C2C9"
         android:ems="10"
+        android:layout_centerInParent = "true"
+        android:onClick = "notif"
         android:fontFamily="@font/psemibold"
         android:padding="10dp"
-        android:text="@string/simpan"
+        android:text="Pantau"
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

@@ -8,6 +8,8 @@ import androidx.core.content.ContextCompat;
 import androidx.fragment.app.FragmentActivity;
 
 import android.Manifest;
+import android.app.AlarmManager;
+import android.app.PendingIntent;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.PackageManager;
@@ -36,6 +38,7 @@ import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 
+import java.util.Calendar;
 import java.util.List;
 
 public class MapsActivity extends FragmentActivity implements OnMapReadyCallback{
@@ -193,5 +196,19 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     public void kembali(View view) {
         startActivity(new Intent(this, dashboard.class));
         finish();
+    }
+//notifikasi
+    public void notif (View view) {
+        Intent myIntent = new Intent(getApplicationContext() , NotifyService. class ) ;
+        AlarmManager alarmManager = (AlarmManager) getSystemService( ALARM_SERVICE ) ;
+        PendingIntent pendingIntent = PendingIntent. getService ( this, 0 , myIntent , 0 ) ;
+        Calendar calendar = Calendar. getInstance () ;
+        calendar.set(Calendar. SECOND , 0 ) ;
+        calendar.set(Calendar. MINUTE , 0 ) ;
+        calendar.set(Calendar. HOUR , 0 ) ;
+        calendar.set(Calendar. AM_PM , Calendar. AM ) ;
+        calendar.add(Calendar. DAY_OF_MONTH , 1 ) ;
+        alarmManager.setRepeating(AlarmManager. RTC_WAKEUP , calendar.getTimeInMillis() ,
+                1000 * 60 * 60 * 24 , pendingIntent) ;
     }
 }

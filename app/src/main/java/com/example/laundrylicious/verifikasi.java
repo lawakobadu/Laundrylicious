@@ -18,13 +18,13 @@ public class verifikasi extends AppCompatActivity {
         setContentView(R.layout.verifikasi);
     }
 
-//    public void kembali(View view) {
-//        startActivity(new Intent(this, lupa_password.class));
-//        finish();
-//    }
+    public void kembali(View view) {
+        startActivity(new Intent(this, lupa_password.class));
+        finish();
+    }
 
     public void simpan(View view) {
-        startActivity(new Intent(this, dashboard.class));
+        startActivity(new Intent(this, LoginActivity.class));
         finish();
     }
 }
